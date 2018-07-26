@@ -1,0 +1,31 @@
+.textwrap {
+    float: left;
+}
+
+#contentArea {
+    width: 960px;
+    margin: auto;
+}
+
+#contentHeader {
+    width: 960px;
+    margin: auto;
+    border: 0px;
+    
+}
+
+#navigationLinks {
+    float: right;
+}
+
+#nameSpace {
+    width: 160px;
+    float: left;
+    background-color: #4aaaa5;
+    padding: 20px;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
