@@ -1,3 +1,8 @@
+body {
+    background-image: url("assets/images/full-bloom.png");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .textwrap {
     float: left;
 }
@@ -8,6 +13,7 @@
 }
 
 #contentHeader {
+    position: relative;
     width: 960px;
     margin: auto;
     border: 0px;
@@ -15,7 +21,10 @@
 }
 
 #navigationLinks {
-    float: right;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+
 }
 
 #nameSpace {
@@ -26,20 +35,42 @@
     text-align: center;
 }
 
-.clearfix {
-    overflow: auto;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+}
+
+li a {
+    display: block;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px 0px 10px 0px;
+}
+li a:visited {
+    color:black;
+}
+li a:hover {
+    background-color: lightslategray;
+    color: whitesmoke;
 }
 
 li {
     float: left;
-    display: block;
-    border: 1px;
-    border-color: #000;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#yourNameHere {
+    color:white;
 }
