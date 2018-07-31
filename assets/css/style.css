@@ -8,7 +8,7 @@ body {
 }
 header {
     background-color: white;
-    border-bottom: 1px solid lightgray; 
+    border-bottom: 2px solid #cccccc; 
 }
 .textwrap {
     float: left;
@@ -39,7 +39,7 @@ header {
 .contentHeading {
     margin-bottom:0px;
     padding-bottom:19.40px;
-    border-bottom: 2px solid #4aaaa5;
+    border-bottom: 2px solid #dddddd;
     color: #4aaaa5;
 }
 
@@ -175,12 +175,14 @@ button {
 input {
     padding: 12px 20px;
     width: 878px;
+    border: 1px solid #cccccc;
 }
 
 textarea {
     padding: 12px 20px;
     width: 878px;
     font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #cccccc;
 }
 form {
     position:relative;
