@@ -94,13 +94,18 @@ li {
     float: left;
 }
 
-h1,h2 {
+h1,h2,h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
     font-size:20px;
     font-weight: normal;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bolder;
 }
 
 #yourNameHere {
