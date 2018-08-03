@@ -12,7 +12,7 @@ header {
 }
 .textwrap {
     float: left;
-    margin: 0px 21.44px 0px 0px;
+    margin: 21.44px 21.44px 0px 0px;
 }
 
 #contentArea {
@@ -77,6 +77,7 @@ li a {
     text-decoration: none;
     padding: 0px;
     color:#666666;
+    line-height:2;
 }
 li a:link {
     color: #666666;
@@ -85,7 +86,7 @@ li a:visited {
     color:#666666;
 }
 li a:hover {
-    background-color: lightslategray;
+    background-color: #cccccc;
     color: whitesmoke;
 }
 

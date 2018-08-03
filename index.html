@@ -2,17 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- The header is styled to be the full width of the page. a div holds the conent at the correct width. A few divs hold the header elements; -->
     <header>
+        <!-- The contentHeader div bounds the width of the content in the header  -->
         <div class="clearfix" id="contentHeader">
             <div id="nameSpace">
                 <h1 id="yourNameHere">Alex Szeliga</h1>
             </div>
+            <!-- div is positioned absolute, not floated right, links have a hover jawn on them -->
             <div id="navigationLinks">
                 <ul>
                     <li class="nav">
@@ -28,10 +31,11 @@
             </div>
         </div>
     </header>
-
-    <div id="contentArea">
-        <h1 class="contentHeading">About Me</h1>
+    <!-- the context here might be a little backwards; there's a content area section, because semantically sections come before divs, but I think 
+    I might have been better off making a div for the content area, then split that up into sections-->
+    <section id="contentArea">
         <div id="contentContent">
+            <h1 class="contentHeading">About Me</h1>
             <img src="assets/images/alex_szeliga_headshot.jpg" width=200 class="textwrap" alt="Headshot of Alex Szeliga">
             <p>
                 By the time I completed high school, I felt very confident that the most exciting (and likely most lucrative) careers available
@@ -83,12 +87,12 @@
             </p>
             <p>
                 I built a team from scratch using largely unknown talent from within RevZilla’s own fulfillment team. The team was responsible
-                for advocating for customers and their orders. The team interacted with every
-                operations team at RevZilla. I developed procedures and communication structure between my team and customer
-                service, purchasing, fulfillment, and most relevant to my interests, our in house software development team.
-                In addition to the site itself, RevZilla.com also builds almost all admin and SCM software in house. My role
-                was to interpret the needs of our business-unit users and provide relevant feedback to ensure the tools created
-                were up to the task of managing my team’s day-to-day operations and to scale into the future.
+                for advocating for customers and their orders. The team interacted with every operations team at RevZilla.
+                I developed procedures and communication structure between my team and customer service, purchasing, fulfillment,
+                and most relevant to my interests, our in house software development team. In addition to the site itself,
+                RevZilla.com also builds almost all admin and SCM software in house. My role was to interpret the needs of
+                our business-unit users and provide relevant feedback to ensure the tools created were up to the task of
+                managing my team’s day-to-day operations and to scale into the future.
             </p>
             <p>
                 While I recognize now that I’ve skewed away from what should have been an obvious path, I’m ready to correct course. And
@@ -98,7 +102,8 @@
                 ‘bootcamp’, and now I’m poised to add some new tools to my kit and build the next big idea.
             </p>
         </div>
-    </div>
+    </section>
+    <!-- just putting a (c) on a document doesn't exactly mean much, but I firmly believe in creative commons -->
     <footer>
         <div id="license">
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
